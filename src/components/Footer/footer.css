@@ -1,0 +1,42 @@
+img {
+    width: 3rem;
+}
+
+p {
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.footerGrid {
+    margin-bottom: 1rem;
+    margin-right: 1.5px;
+    margin-left: 1.5px;
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr 1fr;
+    grid-template-areas:
+    "xrma xrma xrma xrma"
+    "blank facebook instagram gmail";
+}
+
+.footerGrid > div:first-child {
+    grid-area: facebook;
+}
+
+.footerGrid > div:nth-child(2) {
+    grid-area: instagram;
+}
+
+.footerGrid > div:nth-child(3) {
+    grid-area: gmail;
+}
+
+.footerGrid > div:nth-child(4) {
+    grid-area: xrma;
+    margin-top: .25rem;
+    margin-bottom: 1rem;
+    position: relative;
+    top: .5rem;
+    color: #333333;
+    
+    
+}

@@ -1,0 +1,149 @@
+.testimonialContainer {
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr;
+    grid-template-areas:
+        "headline headline headline" 
+        "photo apostrophe apostrophe"
+        "photo nameTest star"
+        "photo quote quote"
+        "photo testimony testimony"
+        "photo apostrophe2 apostrophe2";
+    overflow-x: hidden;
+    background-color: hsl(0,0%,0%, .8);
+    margin-top: 2rem;
+    margin-bottom: 0;
+    
+}
+
+.circleContainer {
+    width: 260px;
+    height: 260px;
+    border: 5px solid gold;
+    border-radius: 50%;
+    background-color: hsl(0,0%,0%, .9);
+    position: relative;
+    top: 150px;
+    opacity: 5%;
+    left: 50px;
+    margin-bottom: 0;
+}
+
+.headerText {
+    color: white;
+    position: relative;
+    top: 40px;
+    text-align: right;
+    margin-right: 24px;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+
+    padding-right: 5px;
+}
+.star svg {
+    width: 20px;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.familyPicTest {
+    width: 100%;
+    position: relative; 
+    bottom: 35px;
+ 
+  
+}
+
+.apostrophe {
+    font-size: 3.5rem;
+    margin: 0;
+    text-align: left;
+    position: relative;
+    top: 72px;
+    color: #ffffff;
+}
+
+.apostrophe2 {
+    font-size: 3.5rem;
+    margin: 0 24px 0 0;
+    text-align: right;
+    position: relative;
+    bottom: 72px;
+    color: #ffffff;
+
+    
+}
+
+
+.nameTest {
+   
+    position: relative;
+    top: 5px;
+    left: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.star {
+    position: relative;
+    color: gold;
+    overflow: hidden;
+    left: 24px;
+}
+.quote {
+    margin: 0 24px 0 0;
+    color: #eeeeee;
+    font-size: 24px;
+}
+
+.testimony {
+    margin: 0 24px 0 0;
+    text-align: right;
+    color: #ffffff;
+
+}
+
+.testimonialContainer > div:first-child {
+    grid-area: headline;
+    align-self: center;
+}
+
+.testimonialContainer > div:nth-child(2) {
+    grid-area: photo;
+    align-self: center;
+}
+
+.testimonialContainer > div:nth-child(3) {
+    grid-area: apostrophe;
+    align-self: left;
+}
+
+.testimonialContainer > div:nth-child(4) {
+    grid-area: nameTest;
+    align-self: left;
+}
+
+.testimonialContainer > div:nth-child(5) {
+    grid-area: star;
+    display: inline-flex;
+}
+
+.testimonialContainer > div:nth-child(6) {
+    grid-area: quote;
+    text-align: right;
+
+}
+
+.testimonialContainer > div:nth-child(7) {
+    grid-area: testimony;
+    align-self: center;
+}
+
+.testimonialContainer > div:nth-child(8) {
+    grid-area: apostrophe2;
+    align-self: right;
+}
+

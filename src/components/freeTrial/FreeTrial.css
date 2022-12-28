@@ -1,0 +1,19 @@
+.introContainer {
+  background-color: #eeeeee;
+}
+
+.introContainerButton {
+  width: 15rem;
+  border: .1rem solid #333333;
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 12px;
+  background-color: hsl(200, 80%, 45%, .5);
+}
+
+.introContainerButton:hover {
+  background-color: hsl(200, 80%, 45%, .9);
+  color: #ffffff;
+  border-bottom: .2rem solid #333333;
+  
+}

@@ -1,0 +1,369 @@
+.homepage {
+    margin: 0px;
+    overflow-x: hidden;
+    
+  }
+  /* heading styling */
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  p {
+    font-family: 'Varela Round', serif;
+  }
+  
+  /* navigation styling */
+  .navigation {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    font-size: 1.33vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(.25turn, #333333 50%, #eeeeee 50% 100%);
+    color: #ffffff; 
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+  }
+  
+  .bookContainer {
+    
+    display: grid;
+    grid-template-areas:
+      "calendar click"
+      "calendar book";
+    grid-template-columns: 25% 1fr;
+    margin: 0px;
+    
+  
+  }
+  
+  .bookContainer > div:first-child {
+    grid-area: calendar;
+    align-self: center;
+  }
+  
+  .click-here {
+    transform: translate(-18px,10px);
+  }
+  
+  .book {
+    transform: translate(-5px,-10px);
+  
+  }
+  
+  .phoneContainer {
+    display: grid;
+    grid-template-areas:
+      "phone call"
+      "phone number";
+    grid-template-columns: 25% 1fr;
+    color: #333333;
+    width: 100%;
+    
+      
+  }
+  
+  .phoneContainer > div:first-child {
+    grid-area: phone;
+    align-self: center
+  }
+  
+  .call-us{
+    transform: translate(-28px,10px);
+  }
+  
+  .number {
+    transform: translate(-5px,-10px);
+  
+    
+  }
+  
+  nav svg {
+    height: 30px;
+    transform: translate(12px,2px);
+  }
+  
+  /* ---------the menu container---------------- */
+  .menuContainer {
+    background-color: rgba(238,238,238, .5);
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-areas: 
+        'theLogo theBurgerBars'
+        'menuItems menuItems';
+    position: fixed;
+    align-items: center;
+    top: 73px;
+    width: 100%;
+    z-index: 998;
+    text-align: center;
+  }
+
+  .xrmaLogo.unclicked:first-child {
+    width: 4.5rem;
+    grid-area: theLogo;
+    justify-self: center;
+    }
+  
+    /* ---------the hamburger menu styling---------------- */
+
+  .hamburger span {
+    width: 40px;
+    height: 5px;
+    margin: 0px;
+    background-color: #333333;
+    display: grid;
+    margin-bottom: 3px;
+    justify-content: end;
+    position: relative;
+    left: 4.75rem;
+    grid-area: theBurgerBars;
+  }
+
+ .visible {
+  display: inherit;
+ }
+
+ .hidden {
+  display: none;
+ }
+
+  .menu {
+    grid-area: menuItems;
+    z-index: -1;
+  }
+
+  /* --------------menu animation-------------------- */
+  .xrmaLogo.clicked:first-child {
+    opacity: 0;
+    transition: ease-out .3s;
+  }
+
+  .burgerBar.clicked:nth-child(1) {
+    transform: rotate(45deg) translate(.75rem, .25rem);
+    transition: ease-out 0.5s;
+    background-color: red;
+    
+  }
+
+  .burgerBar.clicked:nth-child(2) {
+    transform: scale(.1);
+    transition: ease-out 0.5s;
+    background-color: red;
+  }
+
+  .burgerBar.clicked:nth-child(3) {
+    transform: rotate(135deg) translate(-.4rem, 0rem);
+    transition: ease-out 0.5s;
+    background-color: red;
+  }
+/* ---------unclicked menu animation----------- */
+.xrmaLogo.unclicked:first-child {
+  
+  transition: ease-in .3s;
+}
+  .burgerBar.unclicked {
+    transform: rotate(0) translate(0);
+    transition:cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+  }
+  
+  /* hero styling */
+  .heroContainer {
+    background: url("../../Images/martialArtsClass.jpg");
+    background-size:cover;
+    position: absolute;
+    width:100%;
+    height: 55%;
+    background-repeat: no-repeat;
+    z-index: 997;
+    top: 69px;
+    
+  }
+  
+  .heroText {
+    border: solid .2rem #333333;
+    width: 90%;
+    padding: 2px 0;
+    word-wrap:break-word;
+    color: #ffffff;
+    background-color: hsl(200, 80%, 45%, .5);
+    text-align: center;
+    position: relative;
+    top: 22rem;
+    left: .25rem;
+    display: grid;
+    grid-template-columns:
+      "xtreme"
+      "details";
+    margin: 0 auto;
+  }
+  
+  .heroText h1 {
+    font-size: 18px;
+    margin: .2rem 0;
+  }
+  
+  .heroText h3 {
+    font-size: 9px;
+    margin: 0 0 .2rem 0;
+  }
+
+  .trialOfferContainer {
+    color: #000000;
+    display: grid;
+    position: absolute;
+    top: 23rem;    
+    background-color: #eeeeee;
+    text-align: center;
+    padding-top: 7rem;
+  }
+
+  .trialOfferh2 {
+    font-size: 1.5rem;
+    margin: 1rem 0 .5rem 0;
+  }
+
+  .trialOfferh3 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    margin-top: 0;
+    padding: 0 2rem;
+
+  }
+
+  .threeLessons {
+    color: #FF0000;
+  }
+
+  p {
+    font-family: 'Noto Serif', serif;
+  }
+
+  h2 {
+    letter-spacing: .15rem;
+  }
+
+  div svg {
+    width: 2rem;
+    position: relative;
+    top: .35rem;
+    left: .2rem;
+  }
+
+  .introButton {
+    border: .25rem solid #333333;
+    font-size: 1.2rem;
+    width: 18rem;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: hsl(200, 80%, 45%, .5);
+    line-height: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .bulletPointContainer {
+    display: grid;
+    text-align: left;
+    margin-left: 10%;
+    line-height: 0;
+    height: 10.5rem;
+  }
+  .firstBulletPoint {
+    margin-top: 5px;
+  }
+
+  .bulletPointsGroup {
+    position: relative;
+    display: grid;
+    bottom: 2rem;
+  }
+
+  .bulletPointContainer > div:nth-child(3) {
+    position: relative;
+    bottom: 64px;
+  }
+
+  .bulletPointContainer > div:nth-child(4) {
+    position: relative;
+    bottom: 97px;
+  }
+
+  section svg {
+    position: relative;
+    margin-right: 15px;
+  }
+
+  /* programs container styling */
+  .programsHeading {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-decoration: underline #333333;
+    text-underline-offset: 6px;
+    display: inline-block;
+    justify-self: center;
+
+  }
+
+  .kidsImageContainer {
+    border: 5px solid #333333;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  .kidsMartialArtsImage {
+    width: 100%;
+
+  }
+
+  .adultsImageContainer {
+    border: 5px solid #333333;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .adultsMartialArtsImage {
+    width: 100%;
+  }
+
+/* mission statement container */
+
+.missionStatementContainer{
+  background-color:hsl(200, 80%, 45%, .5);
+  border-top: solid 2px #333333;
+  border-bottom: solid 2px #333333;
+  padding: 1px 5px;
+}
+
+.xrmaLogo2 {
+  width: 8rem;
+  margin: 0;
+  padding: 0;
+}
+
+.missionH4{
+  color: #333333;
+  line-height: 1.6rem;
+  padding: 0 2rem;
+}
+
+.missionP {
+  color: #333333;
+  padding: 0 2rem;
+  line-height: 1.2rem;
+  
+}

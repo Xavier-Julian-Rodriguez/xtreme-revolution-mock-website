@@ -1,0 +1,25 @@
+.theMenuContainer {
+    background-color: hsl(200, 80%, 12%);
+    background-image: url('../../Images/logo.png') ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode:soft-light;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    height: 25rem;
+    top: 0;
+    
+}
+
+.listContainer {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    line-height: 45px;
+    list-style: none;
+    color: #ffffff;
+    position: relative;
+    right: 1.25rem;
+    margin-top: 25%;
+}
