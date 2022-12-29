@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.c692fdc4.css",
-    "main.js": "/static/js/main.a408f230.js",
-    "static/js/787.63e51538.chunk.js": "/static/js/787.63e51538.chunk.js",
-    "static/media/adultsMartialArtsImage.jpg": "/static/media/adultsMartialArtsImage.eb701c0e89e54a8ea1e9.jpg",
-    "static/media/martialArtsClass.jpg": "/static/media/martialArtsClass.d342607a617c96d71317.jpg",
-    "static/media/familyPhoto.png": "/static/media/familyPhoto.6237e74237333fdbcdae.png",
-    "static/media/childrenMartialArtsImage.jpg": "/static/media/childrenMartialArtsImage.bd114390ced1a52c63a8.jpg",
-    "static/media/instagramLogo.png": "/static/media/instagramLogo.7618c0fff7b3af6bac2a.png",
-    "static/media/logo.png": "/static/media/logo.b42b923102074d1b96e2.png",
-    "index.html": "/index.html",
-    "main.c692fdc4.css.map": "/static/css/main.c692fdc4.css.map",
-    "main.a408f230.js.map": "/static/js/main.a408f230.js.map",
-    "787.63e51538.chunk.js.map": "/static/js/787.63e51538.chunk.js.map"
+    "main.css": "/xtreme-revolution-mock-website/static/css/main.696e1ffb.css",
+    "main.js": "/xtreme-revolution-mock-website/static/js/main.2d45860e.js",
+    "static/js/787.63e51538.chunk.js": "/xtreme-revolution-mock-website/static/js/787.63e51538.chunk.js",
+    "static/media/adultsMartialArtsImage.jpg": "/xtreme-revolution-mock-website/static/media/adultsMartialArtsImage.eb701c0e89e54a8ea1e9.jpg",
+    "static/media/martialArtsClass.jpg": "/xtreme-revolution-mock-website/static/media/martialArtsClass.d342607a617c96d71317.jpg",
+    "static/media/familyPhoto.png": "/xtreme-revolution-mock-website/static/media/familyPhoto.6237e74237333fdbcdae.png",
+    "static/media/childrenMartialArtsImage.jpg": "/xtreme-revolution-mock-website/static/media/childrenMartialArtsImage.bd114390ced1a52c63a8.jpg",
+    "static/media/instagramLogo.png": "/xtreme-revolution-mock-website/static/media/instagramLogo.7618c0fff7b3af6bac2a.png",
+    "static/media/logo.png": "/xtreme-revolution-mock-website/static/media/logo.b42b923102074d1b96e2.png",
+    "index.html": "/xtreme-revolution-mock-website/index.html",
+    "main.696e1ffb.css.map": "/xtreme-revolution-mock-website/static/css/main.696e1ffb.css.map",
+    "main.2d45860e.js.map": "/xtreme-revolution-mock-website/static/js/main.2d45860e.js.map",
+    "787.63e51538.chunk.js.map": "/xtreme-revolution-mock-website/static/js/787.63e51538.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c692fdc4.css",
-    "static/js/main.a408f230.js"
+    "static/css/main.696e1ffb.css",
+    "static/js/main.2d45860e.js"
   ]
 }
